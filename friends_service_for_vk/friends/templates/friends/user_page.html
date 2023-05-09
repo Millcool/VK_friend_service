@@ -1,0 +1,66 @@
+{% extends 'friends/base.html' %}
+
+{% block content %}
+
+<div class = "side_menu">
+    <ul class = "side_menu">
+    <li><a href="/users/{{user.id}}/friend_list">Список друзей</a></li>
+  <li><a href="/users/{{user.id}}/friend_requests">Ваши заявки в друзья</a></li>
+    </ul>
+</div>
+<h1> Здраствуйте, {{user.username}} ! Добро пожаловать на наш сайт ! </h1>
+
+
+
+
+
+
+    {%for us in users%}
+        {%if us.id != user.id %}
+    <div class = "one_block">
+            <a  class = "friend_list">{{us.username}}</a>
+
+            {% if us.id in friends %}
+                <p class = "friend_list">Этот пользователь уже в друзьях</p>
+
+                <form action="/users/{{user.id}}/{{us.id}}/remove_friend" method="post">
+                    {% csrf_token %}
+                    <input type="submit" name="upvote" value="Удалить из друзей" />
+                 </form>
+
+            {%elif us.id in requests_from_user %}
+                    <p class = "friend_list">Заявка в друзья отправлена</p>
+            <form action="/users/{{user.id}}/{{us.id}}/withdraw" method="post">
+                {% csrf_token %}
+                <input type="submit" name="upvote" value="Отозвать заявку в друзья" />
+            </form>
+
+
+            {%elif us.id in requests_to_user %}
+                    <p class = "friend_list">Отправил вам заявку в друзья</p>
+            <form action="/users/{{user.id}}/{{us.id}}/{{1}}/add_friend" method="post">
+                {% csrf_token %}
+                <input type="submit" name="upvote" value="Принять заявку в друзья" />
+            </form>
+
+
+            <form action="/users/{{user.id}}/{{us.id}}/{{0}}/add_friend" method="post">
+                {% csrf_token %}
+                <input type="submit" name="upvote" value="Отклонить заявку в друзья" />
+            </form>
+
+
+            {% else %}
+                <p class = "friend_list">Этот пользователь не в друзьях</p>
+             <form action="/users/{{user.id}}/{{us.id}}/friend_requests" method="post">
+                {% csrf_token %}
+                <input type="submit" name="upvote" value="Добавить в друзья" />
+             </form>
+            {%endif%}
+
+    {%endif%}
+        </div>
+    {%endfor%}
+
+{% endblock %}
+

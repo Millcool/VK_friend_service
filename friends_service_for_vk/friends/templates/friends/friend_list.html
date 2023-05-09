@@ -1,0 +1,17 @@
+{% extends 'friends/base.html' %}
+
+{% block content %}
+<h1> Здраствуйте, {{user.username}} ! Вот список ваших друзей </h1>
+
+<div class = "side_menu">
+    <ul class = "side_menu">
+    <li><a href="/users/{{user.id}}/user_page">Вернуться обратно</a></li>
+  <li><a href="/users/{{user.id}}/friend_requests">Ваши заявки в друзья</a></li>
+    </ul>
+</div>
+    {%for friend in friends%}
+ <div class = "friend_block">
+ <a  class = "friend_list">{{friend.username}}</a>
+ </div>
+    {%endfor%}
+{% endblock %}

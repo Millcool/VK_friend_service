@@ -1,0 +1,15 @@
+{% extends 'friends/base.html' %}
+
+{% block content %}
+
+<h1>Добрый день !</h1>
+<h2> Пожалуйста, войдите в свой аккаунт</h2>
+  <form class="one_block" method="post">
+    {% csrf_token %}
+    <label for="username">Username:</label>
+    <input type="text" name="username"
+           placeholder="Username">
+    <input type="submit" value="Log_in">
+  </form>
+{% endblock %}
+</html>

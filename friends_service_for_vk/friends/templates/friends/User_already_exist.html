@@ -1,0 +1,8 @@
+{% extends 'friends/base.html' %}
+
+{% block content %}
+
+ <h1>Пользователь с именем {{user}} уже зарегистрирован на сайте, пожалуйста, выполните вход !</h1>
+
+    <button onclick = "document.location='../../users/log_in'">Войти в свой аккаунт</button>
+{% endblock %}

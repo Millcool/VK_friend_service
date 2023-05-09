@@ -1,0 +1,866 @@
+2023-05-09 00:28:39,280	INFO	C:\Users\79671\PycharmProjects\VK_friends_service\friends_service_for_vk\friends\views.py changed, reloading.
+2023-05-09 00:29:06,955	INFO	Deleted friend_request from user: 1, to user: 3
+2023-05-09 00:29:06,997	WARNING	Not Found: /users/1/static/css/style.css
+2023-05-09 00:31:01,108	INFO	C:\Users\79671\PycharmProjects\VK_friends_service\friends_service_for_vk\friends\views.py changed, reloading.
+2023-05-09 00:31:47,704	INFO	C:\Users\79671\PycharmProjects\VK_friends_service\friends_service_for_vk\friends\views.py changed, reloading.
+2023-05-09 00:31:53,811	INFO	Deleted friend_request from user: 1, to user: 3
+2023-05-09 00:31:53,852	WARNING	Not Found: /users/1/static/css/style.css
+2023-05-09 00:32:12,372	WARNING	Not Found: /users/1/static/css/style.css
+2023-05-09 00:32:14,833	INFO	Deleted friend_request from user: 1, to user: 2
+2023-05-09 00:32:14,868	WARNING	Not Found: /users/1/static/css/style.css
+2023-05-09 00:32:15,487	INFO	Deleted friend_request from user: 1, to user: 3
+2023-05-09 00:32:15,519	WARNING	Not Found: /users/1/static/css/style.css
+2023-05-09 00:32:16,061	INFO	Deleted friend_request from user: 1, to user: 4
+2023-05-09 00:32:16,096	WARNING	Not Found: /users/1/static/css/style.css
+2023-05-09 00:32:16,620	INFO	Deleted friend_request from user: 1, to user: 5
+2023-05-09 00:32:16,654	WARNING	Not Found: /users/1/static/css/style.css
+2023-05-09 00:32:23,943	WARNING	Not Found: /users/1/static/css/style.css
+2023-05-09 00:32:37,417	INFO	Deleted friend_request from user: 2, to user: 1
+2023-05-09 00:32:37,451	WARNING	Not Found: /users/2/static/css/style.css
+2023-05-09 00:33:59,392	INFO	C:\Users\79671\PycharmProjects\VK_friends_service\friends_service_for_vk\friends\views.py changed, reloading.
+2023-05-09 00:34:24,329	WARNING	Not Found: /users/1/static/css/style.css
+2023-05-09 00:34:25,673	WARNING	Not Found: /users/1/static/css/style.css
+2023-05-09 00:34:26,349	WARNING	Not Found: /users/1/static/css/style.css
+2023-05-09 00:36:35,602	INFO	C:\Users\79671\PycharmProjects\VK_friends_service\friends_service_for_vk\friends\views.py changed, reloading.
+2023-05-09 00:45:01,209	WARNING	Not Found: /users/2/static/css/style.css
+2023-05-09 00:46:12,603	INFO	C:\Users\79671\PycharmProjects\VK_friends_service\friends_service_for_vk\friends\views.py changed, reloading.
+2023-05-09 00:46:39,496	WARNING	Not Found: /users/2/static/css/style.css
+2023-05-09 00:46:41,268	WARNING	Not Found: /users/2/static/css/style.css
+2023-05-09 00:47:10,244	WARNING	Not Found: /users/1/2/static/css/style.css
+2023-05-09 00:47:14,629	WARNING	Not Found: /users/1/2/static/css/style.css
+2023-05-09 00:49:09,639	INFO	C:\Users\79671\PycharmProjects\VK_friends_service\friends_service_for_vk\friends\views.py changed, reloading.
+2023-05-09 00:49:37,650	WARNING	Not Found: /users/1/static/css/style.css
+2023-05-09 00:49:39,108	WARNING	Not Found: /users/1/static/css/style.css
+2023-05-09 00:49:49,003	WARNING	Not Found: /users/2/1/static/css/style.css
+2023-05-09 00:50:07,595	WARNING	Not Found: /users/2/static/css/style.css
+2023-05-09 00:50:16,543	ERROR	Internal Server Error: /users/2/1/remove_friend
+Traceback (most recent call last):
+  File "C:\Users\79671\PycharmProjects\VK_friends_service\venv\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\79671\PycharmProjects\VK_friends_service\venv\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\79671\PycharmProjects\VK_friends_service\friends_service_for_vk\friends\views.py", line 167, in remove_friend
+    user.friends.remove(friend)
+AttributeError: 'User' object has no attribute 'friends'
+2023-05-09 00:51:50,324	INFO	C:\Users\79671\PycharmProjects\VK_friends_service\friends_service_for_vk\friends\views.py changed, reloading.
+2023-05-09 00:53:23,875	INFO	C:\Users\79671\PycharmProjects\VK_friends_service\friends_service_for_vk\friends\views.py changed, reloading.
+2023-05-09 00:55:30,410	INFO	C:\Users\79671\PycharmProjects\VK_friends_service\friends_service_for_vk\friends\views.py changed, reloading.
+2023-05-09 01:05:39,289	INFO	C:\Users\79671\PycharmProjects\VK_friends_service\friends_service_for_vk\friends\views.py changed, reloading.
+2023-05-09 01:06:28,800	INFO	C:\Users\79671\PycharmProjects\VK_friends_service\friends_service_for_vk\friends\urls.py changed, reloading.
+2023-05-09 01:06:36,212	INFO	Deleted friend_request from user: 1, to user: 3
+2023-05-09 01:06:36,250	WARNING	Not Found: /users/1/static/css/style.css
+2023-05-09 01:06:38,691	WARNING	Not Found: /users/1/static/css/style.css
+2023-05-09 01:06:40,256	INFO	Deleted Friendship object of user: 1, and friend: 2
+2023-05-09 01:06:40,263	INFO	Deleted Friendship object of user: 1, and friend: 2
+2023-05-09 01:06:40,300	WARNING	Not Found: /users/1/static/css/style.css
+2023-05-09 01:06:44,029	WARNING	Not Found: /users/1/static/css/style.css
+2023-05-09 01:06:46,243	INFO	Deleted friend_request from user: 1, to user: 2
+2023-05-09 01:06:46,276	WARNING	Not Found: /users/1/static/css/style.css
+2023-05-09 01:06:47,633	WARNING	Not Found: /users/1/static/css/style.css
+2023-05-09 01:07:20,865	WARNING	Not Found: /users/2/static/css/style.css
+2023-05-09 01:07:28,516	INFO	Created Friendship object of user: 1, and friend: 2
+2023-05-09 01:07:28,516	INFO	Created Friendship object of user: 1, and friend: 2
+2023-05-09 01:07:28,522	INFO	Changed FriendReuest object of user: 1, to friend: 2 to True
+2023-05-09 01:07:28,550	WARNING	Not Found: /users/1/2/static/css/style.css
+2023-05-09 01:07:37,881	WARNING	Not Found: /users/2/static/css/style.css
+2023-05-09 01:07:40,339	INFO	Deleted friend_request from user: 2, to user: 3
+2023-05-09 01:07:40,375	WARNING	Not Found: /users/2/static/css/style.css
+2023-05-09 01:07:49,661	INFO	Deleted Friendship object of user: 2, and friend: 1
+2023-05-09 01:07:49,668	INFO	Deleted Friendship object of user: 2, and friend: 1
+2023-05-09 01:07:49,700	WARNING	Not Found: /users/2/static/css/style.css
+2023-05-09 01:08:04,101	WARNING	Not Found: /users/2/static/css/style.css
+2023-05-09 01:08:18,151	INFO	Deleted FriendRequest object of user: 5, to user: 2
+2023-05-09 01:08:18,186	WARNING	Not Found: /users/5/2/static/css/style.css
+2023-05-09 01:08:20,537	INFO	Deleted FriendRequest object of user: 5, to user: 1
+2023-05-09 01:08:20,576	WARNING	Not Found: /users/5/1/static/css/style.css
+2023-05-09 01:09:11,221	INFO	C:\Users\79671\PycharmProjects\VK_friends_service\friends_service_for_vk\friends\urls.py changed, reloading.
+2023-05-09 01:09:25,284	WARNING	Not Found: /users/5/static/css/style.css
+2023-05-09 01:09:25,972	WARNING	Not Found: /users/5/static/css/style.css
+2023-05-09 01:09:43,923	INFO	Deleted FriendRequest object of user: 2, to user: 5
+2023-05-09 01:09:43,953	WARNING	Not Found: /users/2/5/static/css/style.css
+2023-05-09 01:09:46,093	WARNING	Not Found: /users/2/static/css/style.css
+2023-05-09 01:09:46,802	INFO	Deleted friend_request from user: 2, to user: 5
+2023-05-09 01:09:46,837	WARNING	Not Found: /users/2/static/css/style.css
+2023-05-09 01:09:48,208	INFO	Deleted friend_request from user: 2, to user: 4
+2023-05-09 01:09:48,241	WARNING	Not Found: /users/2/static/css/style.css
+2023-05-09 01:09:48,587	WARNING	Not Found: /users/2/static/css/style.css
+2023-05-09 01:09:49,442	WARNING	Not Found: /users/2/static/css/style.css
+2023-05-09 01:09:50,731	INFO	Deleted friend_request from user: 2, to user: 3
+2023-05-09 01:09:50,766	WARNING	Not Found: /users/2/static/css/style.css
+2023-05-09 01:09:51,241	WARNING	Not Found: /users/2/static/css/style.css
+2023-05-09 01:09:51,677	INFO	Deleted friend_request from user: 2, to user: 1
+2023-05-09 01:09:51,712	WARNING	Not Found: /users/2/static/css/style.css
+2023-05-09 01:17:44,182	ERROR	Internal Server Error: /
+Traceback (most recent call last):
+  File "C:\Users\79671\PycharmProjects\VK_friends_service\venv\lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+  File "C:\Users\79671\PycharmProjects\VK_friends_service\venv\lib\site-packages\django\template\base.py", line 170, in render
+    return self._render(context)
+  File "C:\Users\79671\PycharmProjects\VK_friends_service\venv\lib\site-packages\django\template\base.py", line 162, in _render
+    return self.nodelist.render(context)
+  File "C:\Users\79671\PycharmProjects\VK_friends_service\venv\lib\site-packages\django\template\base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "C:\Users\79671\PycharmProjects\VK_friends_service\venv\lib\site-packages\django\template\base.py", line 905, in render_annotated
+    return self.render(context)
+  File "C:\Users\79671\PycharmProjects\VK_friends_service\venv\lib\site-packages\django\template\loader_tags.py", line 127, in render
+    compiled_parent = self.get_parent(context)
+  File "C:\Users\79671\PycharmProjects\VK_friends_service\venv\lib\site-packages\django\template\loader_tags.py", line 124, in get_parent
+    return self.find_template(parent, context)
+  File "C:\Users\79671\PycharmProjects\VK_friends_service\venv\lib\site-packages\django\template\loader_tags.py", line 104, in find_template
+    template_name, skip=history,
+  File "C:\Users\79671\PycharmProjects\VK_friends_service\venv\lib\site-packages\django\template\engine.py", line 129, in find_template
+    raise TemplateDoesNotExist(name, tried=tried)
+django.template.exceptions.TemplateDoesNotExist: base.html
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\79671\PycharmProjects\VK_friends_service\venv\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\79671\PycharmProjects\VK_friends_service\venv\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\79671\PycharmProjects\VK_friends_service\friends_service_for_vk\friends\views.py", line 37, in welcome_page
+    return render(request, 'friends/welcome_page.html')
+  File "C:\Users\79671\PycharmProjects\VK_friends_service\venv\lib\site-packages\django\shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\79671\PycharmProjects\VK_friends_service\venv\lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "C:\Users\79671\PycharmProjects\VK_friends_service\venv\lib\site-packages\django\template\backends\django.py", line 63, in render
+    reraise(exc, self.backend)
+  File "C:\Users\79671\PycharmProjects\VK_friends_service\venv\lib\site-packages\django\template\backends\django.py", line 84, in reraise
+    raise new from exc
+django.template.exceptions.TemplateDoesNotExist: base.html
+2023-05-09 01:19:50,803	INFO	C:\Users\79671\PycharmProjects\VK_friends_service\friends_service_for_vk\friends_service_for_vk\settings.py changed, reloading.
+2023-05-09 01:22:17,695	INFO	C:\Users\79671\PycharmProjects\VK_friends_service\friends_service_for_vk\friends_service_for_vk\settings.py changed, reloading.
+2023-05-09 02:08:08,964	ERROR	Internal Server Error: /
+Traceback (most recent call last):
+  File "C:\Users\79671\PycharmProjects\VK_friends_service\venv\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\79671\PycharmProjects\VK_friends_service\venv\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\79671\PycharmProjects\VK_friends_service\friends_service_for_vk\friends\views.py", line 37, in welcome_page
+    return render(request, 'friends/welcome_page.html')
+  File "C:\Users\79671\PycharmProjects\VK_friends_service\venv\lib\site-packages\django\shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\79671\PycharmProjects\VK_friends_service\venv\lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "C:\Users\79671\PycharmProjects\VK_friends_service\venv\lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+  File "C:\Users\79671\PycharmProjects\VK_friends_service\venv\lib\site-packages\django\template\base.py", line 170, in render
+    return self._render(context)
+  File "C:\Users\79671\PycharmProjects\VK_friends_service\venv\lib\site-packages\django\template\base.py", line 162, in _render
+    return self.nodelist.render(context)
+  File "C:\Users\79671\PycharmProjects\VK_friends_service\venv\lib\site-packages\django\template\base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "C:\Users\79671\PycharmProjects\VK_friends_service\venv\lib\site-packages\django\template\base.py", line 905, in render_annotated
+    return self.render(context)
+  File "C:\Users\79671\PycharmProjects\VK_friends_service\venv\lib\site-packages\django\template\loader_tags.py", line 150, in render
+    return compiled_parent._render(context)
+  File "C:\Users\79671\PycharmProjects\VK_friends_service\venv\lib\site-packages\django\template\base.py", line 162, in _render
+    return self.nodelist.render(context)
+  File "C:\Users\79671\PycharmProjects\VK_friends_service\venv\lib\site-packages\django\template\base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "C:\Users\79671\PycharmProjects\VK_friends_service\venv\lib\site-packages\django\template\base.py", line 905, in render_annotated
+    return self.render(context)
+  File "C:\Users\79671\PycharmProjects\VK_friends_service\venv\lib\site-packages\django\template\defaulttags.py", line 449, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "C:\Users\79671\PycharmProjects\VK_friends_service\venv\lib\site-packages\django\urls\base.py", line 86, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+  File "C:\Users\79671\PycharmProjects\VK_friends_service\venv\lib\site-packages\django\urls\resolvers.py", line 698, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for '' not found. '' is not a valid view function or pattern name.
+2023-05-09 02:08:21,867	ERROR	Internal Server Error: /
+Traceback (most recent call last):
+  File "C:\Users\79671\PycharmProjects\VK_friends_service\venv\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\79671\PycharmProjects\VK_friends_service\venv\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\79671\PycharmProjects\VK_friends_service\friends_service_for_vk\friends\views.py", line 37, in welcome_page
+    return render(request, 'friends/welcome_page.html')
+  File "C:\Users\79671\PycharmProjects\VK_friends_service\venv\lib\site-packages\django\shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\79671\PycharmProjects\VK_friends_service\venv\lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "C:\Users\79671\PycharmProjects\VK_friends_service\venv\lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+  File "C:\Users\79671\PycharmProjects\VK_friends_service\venv\lib\site-packages\django\template\base.py", line 170, in render
+    return self._render(context)
+  File "C:\Users\79671\PycharmProjects\VK_friends_service\venv\lib\site-packages\django\template\base.py", line 162, in _render
+    return self.nodelist.render(context)
+  File "C:\Users\79671\PycharmProjects\VK_friends_service\venv\lib\site-packages\django\template\base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "C:\Users\79671\PycharmProjects\VK_friends_service\venv\lib\site-packages\django\template\base.py", line 905, in render_annotated
+    return self.render(context)
+  File "C:\Users\79671\PycharmProjects\VK_friends_service\venv\lib\site-packages\django\template\loader_tags.py", line 150, in render
+    return compiled_parent._render(context)
+  File "C:\Users\79671\PycharmProjects\VK_friends_service\venv\lib\site-packages\django\template\base.py", line 162, in _render
+    return self.nodelist.render(context)
+  File "C:\Users\79671\PycharmProjects\VK_friends_service\venv\lib\site-packages\django\template\base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "C:\Users\79671\PycharmProjects\VK_friends_service\venv\lib\site-packages\django\template\base.py", line 905, in render_annotated
+    return self.render(context)
+  File "C:\Users\79671\PycharmProjects\VK_friends_service\venv\lib\site-packages\django\template\defaulttags.py", line 449, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "C:\Users\79671\PycharmProjects\VK_friends_service\venv\lib\site-packages\django\urls\base.py", line 86, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+  File "C:\Users\79671\PycharmProjects\VK_friends_service\venv\lib\site-packages\django\urls\resolvers.py", line 698, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for '' not found. '' is not a valid view function or pattern name.
+2023-05-09 02:08:22,583	ERROR	Internal Server Error: /
+Traceback (most recent call last):
+  File "C:\Users\79671\PycharmProjects\VK_friends_service\venv\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\79671\PycharmProjects\VK_friends_service\venv\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\79671\PycharmProjects\VK_friends_service\friends_service_for_vk\friends\views.py", line 37, in welcome_page
+    return render(request, 'friends/welcome_page.html')
+  File "C:\Users\79671\PycharmProjects\VK_friends_service\venv\lib\site-packages\django\shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\79671\PycharmProjects\VK_friends_service\venv\lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "C:\Users\79671\PycharmProjects\VK_friends_service\venv\lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+  File "C:\Users\79671\PycharmProjects\VK_friends_service\venv\lib\site-packages\django\template\base.py", line 170, in render
+    return self._render(context)
+  File "C:\Users\79671\PycharmProjects\VK_friends_service\venv\lib\site-packages\django\template\base.py", line 162, in _render
+    return self.nodelist.render(context)
+  File "C:\Users\79671\PycharmProjects\VK_friends_service\venv\lib\site-packages\django\template\base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "C:\Users\79671\PycharmProjects\VK_friends_service\venv\lib\site-packages\django\template\base.py", line 905, in render_annotated
+    return self.render(context)
+  File "C:\Users\79671\PycharmProjects\VK_friends_service\venv\lib\site-packages\django\template\loader_tags.py", line 150, in render
+    return compiled_parent._render(context)
+  File "C:\Users\79671\PycharmProjects\VK_friends_service\venv\lib\site-packages\django\template\base.py", line 162, in _render
+    return self.nodelist.render(context)
+  File "C:\Users\79671\PycharmProjects\VK_friends_service\venv\lib\site-packages\django\template\base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "C:\Users\79671\PycharmProjects\VK_friends_service\venv\lib\site-packages\django\template\base.py", line 905, in render_annotated
+    return self.render(context)
+  File "C:\Users\79671\PycharmProjects\VK_friends_service\venv\lib\site-packages\django\template\defaulttags.py", line 449, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "C:\Users\79671\PycharmProjects\VK_friends_service\venv\lib\site-packages\django\urls\base.py", line 86, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+  File "C:\Users\79671\PycharmProjects\VK_friends_service\venv\lib\site-packages\django\urls\resolvers.py", line 698, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for '' not found. '' is not a valid view function or pattern name.
+2023-05-09 02:30:15,002	INFO	Deleted friend_request from user: 2, to user: 4
+2023-05-09 02:30:16,717	INFO	Deleted friend_request from user: 2, to user: 4
+2023-05-09 02:30:18,058	INFO	Deleted friend_request from user: 2, to user: 4
+2023-05-09 02:30:21,356	INFO	Deleted friend_request from user: 2, to user: 3
+2023-05-09 02:30:30,284	INFO	Created Friendship object of user: 1, and friend: 5
+2023-05-09 02:30:30,284	INFO	Created Friendship object of user: 1, and friend: 5
+2023-05-09 02:30:30,291	INFO	Changed FriendReuest object of user: 1, to friend: 5 to True
+2023-05-09 02:30:31,610	INFO	Deleted Friendship object of user: 1, and friend: 5
+2023-05-09 02:30:31,617	INFO	Changed Friendship object of user: 1, and friend: 5 to False
+2023-05-09 02:30:32,482	INFO	Created Friendship object of user: 1, and friend: 5
+2023-05-09 02:30:32,483	INFO	Created Friendship object of user: 1, and friend: 5
+2023-05-09 02:30:32,489	INFO	Changed FriendReuest object of user: 1, to friend: 5 to True
+2023-05-09 02:30:33,054	INFO	Deleted Friendship object of user: 1, and friend: 5
+2023-05-09 02:30:33,060	INFO	Changed Friendship object of user: 1, and friend: 5 to False
+2023-05-09 02:30:34,645	INFO	Deleted FriendRequest object of user: 1, to user: 5
+2023-05-09 02:30:36,126	INFO	Deleted Friendship object of user: 1, and friend: 2
+2023-05-09 02:30:36,132	INFO	Changed Friendship object of user: 1, and friend: 2 to False
+2023-05-09 02:30:37,063	INFO	Deleted FriendRequest object of user: 1, to user: 2
+2023-05-09 10:48:02,063	WARNING	Not Found: /favicon.ico
+2023-05-09 11:33:02,603	INFO	Deleted friend_request from user: 1, to user: 2
+2023-05-09 11:33:04,370	INFO	Deleted friend_request from user: 1, to user: 2
+2023-05-09 11:33:33,719	ERROR	Internal Server Error: /users/1/2/friend_requests
+Traceback (most recent call last):
+  File "C:\Users\79671\PycharmProjects\VK_friends_service\venv\lib\site-packages\django\db\backends\utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+  File "C:\Users\79671\PycharmProjects\VK_friends_service\venv\lib\site-packages\django\db\backends\sqlite3\base.py", line 423, in execute
+    return Database.Cursor.execute(self, query, params)
+sqlite3.IntegrityError: UNIQUE constraint failed: friends_friendrequest.from_user, friends_friendrequest.to_user
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\79671\PycharmProjects\VK_friends_service\venv\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\79671\PycharmProjects\VK_friends_service\venv\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\79671\PycharmProjects\VK_friends_service\friends_service_for_vk\friends\views.py", line 87, in friends_list
+    FriendRequest.objects.create(from_user=user_id, to_user=friend_id, accepted=False)
+  File "C:\Users\79671\PycharmProjects\VK_friends_service\venv\lib\site-packages\django\db\models\manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "C:\Users\79671\PycharmProjects\VK_friends_service\venv\lib\site-packages\django\db\models\query.py", line 453, in create
+    obj.save(force_insert=True, using=self.db)
+  File "C:\Users\79671\PycharmProjects\VK_friends_service\venv\lib\site-packages\django\db\models\base.py", line 740, in save
+    force_update=force_update, update_fields=update_fields)
+  File "C:\Users\79671\PycharmProjects\VK_friends_service\venv\lib\site-packages\django\db\models\base.py", line 778, in save_base
+    force_update, using, update_fields,
+  File "C:\Users\79671\PycharmProjects\VK_friends_service\venv\lib\site-packages\django\db\models\base.py", line 881, in _save_table
+    results = self._do_insert(cls._base_manager, using, fields, returning_fields, raw)
+  File "C:\Users\79671\PycharmProjects\VK_friends_service\venv\lib\site-packages\django\db\models\base.py", line 921, in _do_insert
+    using=using, raw=raw,
+  File "C:\Users\79671\PycharmProjects\VK_friends_service\venv\lib\site-packages\django\db\models\manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "C:\Users\79671\PycharmProjects\VK_friends_service\venv\lib\site-packages\django\db\models\query.py", line 1270, in _insert
+    return query.get_compiler(using=using).execute_sql(returning_fields)
+  File "C:\Users\79671\PycharmProjects\VK_friends_service\venv\lib\site-packages\django\db\models\sql\compiler.py", line 1416, in execute_sql
+    cursor.execute(sql, params)
+  File "C:\Users\79671\PycharmProjects\VK_friends_service\venv\lib\site-packages\django\db\backends\utils.py", line 98, in execute
+    return super().execute(sql, params)
+  File "C:\Users\79671\PycharmProjects\VK_friends_service\venv\lib\site-packages\django\db\backends\utils.py", line 66, in execute
+    return self._execute_with_wrappers(sql, params, many=False, executor=self._execute)
+  File "C:\Users\79671\PycharmProjects\VK_friends_service\venv\lib\site-packages\django\db\backends\utils.py", line 75, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "C:\Users\79671\PycharmProjects\VK_friends_service\venv\lib\site-packages\django\db\backends\utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+  File "C:\Users\79671\PycharmProjects\VK_friends_service\venv\lib\site-packages\django\db\utils.py", line 90, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "C:\Users\79671\PycharmProjects\VK_friends_service\venv\lib\site-packages\django\db\backends\utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+  File "C:\Users\79671\PycharmProjects\VK_friends_service\venv\lib\site-packages\django\db\backends\sqlite3\base.py", line 423, in execute
+    return Database.Cursor.execute(self, query, params)
+django.db.utils.IntegrityError: UNIQUE constraint failed: friends_friendrequest.from_user, friends_friendrequest.to_user
+2023-05-09 12:01:56,517	ERROR	Internal Server Error: /users/register/
+Traceback (most recent call last):
+  File "C:\Users\79671\PycharmProjects\VK_friends_service\venv\lib\site-packages\django\db\backends\utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+  File "C:\Users\79671\PycharmProjects\VK_friends_service\venv\lib\site-packages\django\db\backends\sqlite3\base.py", line 423, in execute
+    return Database.Cursor.execute(self, query, params)
+sqlite3.IntegrityError: NOT NULL constraint failed: friends_user.username
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\79671\PycharmProjects\VK_friends_service\venv\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\79671\PycharmProjects\VK_friends_service\venv\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\79671\PycharmProjects\VK_friends_service\friends_service_for_vk\friends\views.py", line 64, in register_user
+    user = User.objects.create(username=username)
+  File "C:\Users\79671\PycharmProjects\VK_friends_service\venv\lib\site-packages\django\db\models\manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "C:\Users\79671\PycharmProjects\VK_friends_service\venv\lib\site-packages\django\db\models\query.py", line 453, in create
+    obj.save(force_insert=True, using=self.db)
+  File "C:\Users\79671\PycharmProjects\VK_friends_service\venv\lib\site-packages\django\db\models\base.py", line 740, in save
+    force_update=force_update, update_fields=update_fields)
+  File "C:\Users\79671\PycharmProjects\VK_friends_service\venv\lib\site-packages\django\db\models\base.py", line 778, in save_base
+    force_update, using, update_fields,
+  File "C:\Users\79671\PycharmProjects\VK_friends_service\venv\lib\site-packages\django\db\models\base.py", line 881, in _save_table
+    results = self._do_insert(cls._base_manager, using, fields, returning_fields, raw)
+  File "C:\Users\79671\PycharmProjects\VK_friends_service\venv\lib\site-packages\django\db\models\base.py", line 921, in _do_insert
+    using=using, raw=raw,
+  File "C:\Users\79671\PycharmProjects\VK_friends_service\venv\lib\site-packages\django\db\models\manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "C:\Users\79671\PycharmProjects\VK_friends_service\venv\lib\site-packages\django\db\models\query.py", line 1270, in _insert
+    return query.get_compiler(using=using).execute_sql(returning_fields)
+  File "C:\Users\79671\PycharmProjects\VK_friends_service\venv\lib\site-packages\django\db\models\sql\compiler.py", line 1416, in execute_sql
+    cursor.execute(sql, params)
+  File "C:\Users\79671\PycharmProjects\VK_friends_service\venv\lib\site-packages\django\db\backends\utils.py", line 98, in execute
+    return super().execute(sql, params)
+  File "C:\Users\79671\PycharmProjects\VK_friends_service\venv\lib\site-packages\django\db\backends\utils.py", line 66, in execute
+    return self._execute_with_wrappers(sql, params, many=False, executor=self._execute)
+  File "C:\Users\79671\PycharmProjects\VK_friends_service\venv\lib\site-packages\django\db\backends\utils.py", line 75, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "C:\Users\79671\PycharmProjects\VK_friends_service\venv\lib\site-packages\django\db\backends\utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+  File "C:\Users\79671\PycharmProjects\VK_friends_service\venv\lib\site-packages\django\db\utils.py", line 90, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "C:\Users\79671\PycharmProjects\VK_friends_service\venv\lib\site-packages\django\db\backends\utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+  File "C:\Users\79671\PycharmProjects\VK_friends_service\venv\lib\site-packages\django\db\backends\sqlite3\base.py", line 423, in execute
+    return Database.Cursor.execute(self, query, params)
+django.db.utils.IntegrityError: NOT NULL constraint failed: friends_user.username
+2023-05-09 12:11:20,344	INFO	C:\Users\79671\PycharmProjects\VK_friends_service\friends_service_for_vk\friends\views.py changed, reloading.
+2023-05-09 12:13:33,886	INFO	C:\Users\79671\PycharmProjects\VK_friends_service\friends_service_for_vk\friends\views.py changed, reloading.
+2023-05-09 12:21:31,973	WARNING	Not Found: /users//friend_list/
+2023-05-09 12:23:12,384	WARNING	Not Found: /users//friend_list/
+2023-05-09 12:23:17,157	WARNING	Not Found: /users//friend_list/
+2023-05-09 12:24:59,512	WARNING	Not Found: /users/1/friend_list/
+2023-05-09 12:25:28,137	ERROR	Internal Server Error: /users/1/friend_list
+Traceback (most recent call last):
+  File "C:\Users\79671\PycharmProjects\VK_friends_service\venv\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\79671\PycharmProjects\VK_friends_service\venv\lib\site-packages\django\core\handlers\base.py", line 188, in _get_response
+    self.check_response(response, callback)
+  File "C:\Users\79671\PycharmProjects\VK_friends_service\venv\lib\site-packages\django\core\handlers\base.py", line 311, in check_response
+    "instead." % name
+ValueError: The view friends.views.friend_list didn't return an HttpResponse object. It returned None instead.
+2023-05-09 12:26:32,732	INFO	C:\Users\79671\PycharmProjects\VK_friends_service\friends_service_for_vk\friends\views.py changed, reloading.
+2023-05-09 12:30:14,980	INFO	Created Friendship object of user: 2, and friend: 1
+2023-05-09 12:30:14,980	INFO	Created Friendship object of user: 2, and friend: 1
+2023-05-09 12:30:14,986	INFO	Changed FriendReuest object of user: 2, to friend: 1 to True
+2023-05-09 12:35:55,963	INFO	C:\Users\79671\PycharmProjects\VK_friends_service\friends_service_for_vk\friends\urls.py changed, reloading.
+2023-05-09 12:36:16,191	WARNING	Not Found: /users/1/friend_requests
+2023-05-09 12:37:01,386	INFO	C:\Users\79671\PycharmProjects\VK_friends_service\friends_service_for_vk\friends\urls.py changed, reloading.
+2023-05-09 12:42:50,162	INFO	C:\Users\79671\PycharmProjects\VK_friends_service\friends_service_for_vk\friends\views.py changed, reloading.
+2023-05-09 12:42:55,508	INFO	C:\Users\79671\PycharmProjects\VK_friends_service\friends_service_for_vk\friends\views.py changed, reloading.
+2023-05-09 12:45:59,748	INFO	C:\Users\79671\PycharmProjects\VK_friends_service\friends_service_for_vk\friends\views.py changed, reloading.
+2023-05-09 12:46:41,289	INFO	C:\Users\79671\PycharmProjects\VK_friends_service\friends_service_for_vk\friends\views.py changed, reloading.
+2023-05-09 12:59:16,691	INFO	C:\Users\79671\PycharmProjects\VK_friends_service\friends_service_for_vk\friends\views.py changed, reloading.
+2023-05-09 13:01:18,122	ERROR	Internal Server Error: /users/register/
+Traceback (most recent call last):
+  File "C:\Users\79671\PycharmProjects\VK_friends_service\venv\lib\site-packages\django\db\backends\utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+  File "C:\Users\79671\PycharmProjects\VK_friends_service\venv\lib\site-packages\django\db\backends\sqlite3\base.py", line 423, in execute
+    return Database.Cursor.execute(self, query, params)
+sqlite3.IntegrityError: NOT NULL constraint failed: friends_user.username
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\79671\PycharmProjects\VK_friends_service\venv\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\79671\PycharmProjects\VK_friends_service\venv\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\79671\PycharmProjects\VK_friends_service\friends_service_for_vk\friends\views.py", line 64, in register_user
+    user = User.objects.create(username=username)
+  File "C:\Users\79671\PycharmProjects\VK_friends_service\venv\lib\site-packages\django\db\models\manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "C:\Users\79671\PycharmProjects\VK_friends_service\venv\lib\site-packages\django\db\models\query.py", line 453, in create
+    obj.save(force_insert=True, using=self.db)
+  File "C:\Users\79671\PycharmProjects\VK_friends_service\venv\lib\site-packages\django\db\models\base.py", line 740, in save
+    force_update=force_update, update_fields=update_fields)
+  File "C:\Users\79671\PycharmProjects\VK_friends_service\venv\lib\site-packages\django\db\models\base.py", line 778, in save_base
+    force_update, using, update_fields,
+  File "C:\Users\79671\PycharmProjects\VK_friends_service\venv\lib\site-packages\django\db\models\base.py", line 881, in _save_table
+    results = self._do_insert(cls._base_manager, using, fields, returning_fields, raw)
+  File "C:\Users\79671\PycharmProjects\VK_friends_service\venv\lib\site-packages\django\db\models\base.py", line 921, in _do_insert
+    using=using, raw=raw,
+  File "C:\Users\79671\PycharmProjects\VK_friends_service\venv\lib\site-packages\django\db\models\manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "C:\Users\79671\PycharmProjects\VK_friends_service\venv\lib\site-packages\django\db\models\query.py", line 1270, in _insert
+    return query.get_compiler(using=using).execute_sql(returning_fields)
+  File "C:\Users\79671\PycharmProjects\VK_friends_service\venv\lib\site-packages\django\db\models\sql\compiler.py", line 1416, in execute_sql
+    cursor.execute(sql, params)
+  File "C:\Users\79671\PycharmProjects\VK_friends_service\venv\lib\site-packages\django\db\backends\utils.py", line 98, in execute
+    return super().execute(sql, params)
+  File "C:\Users\79671\PycharmProjects\VK_friends_service\venv\lib\site-packages\django\db\backends\utils.py", line 66, in execute
+    return self._execute_with_wrappers(sql, params, many=False, executor=self._execute)
+  File "C:\Users\79671\PycharmProjects\VK_friends_service\venv\lib\site-packages\django\db\backends\utils.py", line 75, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "C:\Users\79671\PycharmProjects\VK_friends_service\venv\lib\site-packages\django\db\backends\utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+  File "C:\Users\79671\PycharmProjects\VK_friends_service\venv\lib\site-packages\django\db\utils.py", line 90, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "C:\Users\79671\PycharmProjects\VK_friends_service\venv\lib\site-packages\django\db\backends\utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+  File "C:\Users\79671\PycharmProjects\VK_friends_service\venv\lib\site-packages\django\db\backends\sqlite3\base.py", line 423, in execute
+    return Database.Cursor.execute(self, query, params)
+django.db.utils.IntegrityError: NOT NULL constraint failed: friends_user.username
+2023-05-09 13:02:02,325	ERROR	Internal Server Error: /users/register/
+Traceback (most recent call last):
+  File "C:\Users\79671\PycharmProjects\VK_friends_service\venv\lib\site-packages\django\db\backends\utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+  File "C:\Users\79671\PycharmProjects\VK_friends_service\venv\lib\site-packages\django\db\backends\sqlite3\base.py", line 423, in execute
+    return Database.Cursor.execute(self, query, params)
+sqlite3.IntegrityError: NOT NULL constraint failed: friends_user.username
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\79671\PycharmProjects\VK_friends_service\venv\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\79671\PycharmProjects\VK_friends_service\venv\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\79671\PycharmProjects\VK_friends_service\friends_service_for_vk\friends\views.py", line 64, in register_user
+    user = User.objects.create(username=username)
+  File "C:\Users\79671\PycharmProjects\VK_friends_service\venv\lib\site-packages\django\db\models\manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "C:\Users\79671\PycharmProjects\VK_friends_service\venv\lib\site-packages\django\db\models\query.py", line 453, in create
+    obj.save(force_insert=True, using=self.db)
+  File "C:\Users\79671\PycharmProjects\VK_friends_service\venv\lib\site-packages\django\db\models\base.py", line 740, in save
+    force_update=force_update, update_fields=update_fields)
+  File "C:\Users\79671\PycharmProjects\VK_friends_service\venv\lib\site-packages\django\db\models\base.py", line 778, in save_base
+    force_update, using, update_fields,
+  File "C:\Users\79671\PycharmProjects\VK_friends_service\venv\lib\site-packages\django\db\models\base.py", line 881, in _save_table
+    results = self._do_insert(cls._base_manager, using, fields, returning_fields, raw)
+  File "C:\Users\79671\PycharmProjects\VK_friends_service\venv\lib\site-packages\django\db\models\base.py", line 921, in _do_insert
+    using=using, raw=raw,
+  File "C:\Users\79671\PycharmProjects\VK_friends_service\venv\lib\site-packages\django\db\models\manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "C:\Users\79671\PycharmProjects\VK_friends_service\venv\lib\site-packages\django\db\models\query.py", line 1270, in _insert
+    return query.get_compiler(using=using).execute_sql(returning_fields)
+  File "C:\Users\79671\PycharmProjects\VK_friends_service\venv\lib\site-packages\django\db\models\sql\compiler.py", line 1416, in execute_sql
+    cursor.execute(sql, params)
+  File "C:\Users\79671\PycharmProjects\VK_friends_service\venv\lib\site-packages\django\db\backends\utils.py", line 98, in execute
+    return super().execute(sql, params)
+  File "C:\Users\79671\PycharmProjects\VK_friends_service\venv\lib\site-packages\django\db\backends\utils.py", line 66, in execute
+    return self._execute_with_wrappers(sql, params, many=False, executor=self._execute)
+  File "C:\Users\79671\PycharmProjects\VK_friends_service\venv\lib\site-packages\django\db\backends\utils.py", line 75, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "C:\Users\79671\PycharmProjects\VK_friends_service\venv\lib\site-packages\django\db\backends\utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+  File "C:\Users\79671\PycharmProjects\VK_friends_service\venv\lib\site-packages\django\db\utils.py", line 90, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "C:\Users\79671\PycharmProjects\VK_friends_service\venv\lib\site-packages\django\db\backends\utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+  File "C:\Users\79671\PycharmProjects\VK_friends_service\venv\lib\site-packages\django\db\backends\sqlite3\base.py", line 423, in execute
+    return Database.Cursor.execute(self, query, params)
+django.db.utils.IntegrityError: NOT NULL constraint failed: friends_user.username
+2023-05-09 13:02:08,232	ERROR	Internal Server Error: /users/register/
+Traceback (most recent call last):
+  File "C:\Users\79671\PycharmProjects\VK_friends_service\venv\lib\site-packages\django\db\backends\utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+  File "C:\Users\79671\PycharmProjects\VK_friends_service\venv\lib\site-packages\django\db\backends\sqlite3\base.py", line 423, in execute
+    return Database.Cursor.execute(self, query, params)
+sqlite3.IntegrityError: NOT NULL constraint failed: friends_user.username
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\79671\PycharmProjects\VK_friends_service\venv\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\79671\PycharmProjects\VK_friends_service\venv\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\79671\PycharmProjects\VK_friends_service\friends_service_for_vk\friends\views.py", line 64, in register_user
+    user = User.objects.create(username=username)
+  File "C:\Users\79671\PycharmProjects\VK_friends_service\venv\lib\site-packages\django\db\models\manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "C:\Users\79671\PycharmProjects\VK_friends_service\venv\lib\site-packages\django\db\models\query.py", line 453, in create
+    obj.save(force_insert=True, using=self.db)
+  File "C:\Users\79671\PycharmProjects\VK_friends_service\venv\lib\site-packages\django\db\models\base.py", line 740, in save
+    force_update=force_update, update_fields=update_fields)
+  File "C:\Users\79671\PycharmProjects\VK_friends_service\venv\lib\site-packages\django\db\models\base.py", line 778, in save_base
+    force_update, using, update_fields,
+  File "C:\Users\79671\PycharmProjects\VK_friends_service\venv\lib\site-packages\django\db\models\base.py", line 881, in _save_table
+    results = self._do_insert(cls._base_manager, using, fields, returning_fields, raw)
+  File "C:\Users\79671\PycharmProjects\VK_friends_service\venv\lib\site-packages\django\db\models\base.py", line 921, in _do_insert
+    using=using, raw=raw,
+  File "C:\Users\79671\PycharmProjects\VK_friends_service\venv\lib\site-packages\django\db\models\manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "C:\Users\79671\PycharmProjects\VK_friends_service\venv\lib\site-packages\django\db\models\query.py", line 1270, in _insert
+    return query.get_compiler(using=using).execute_sql(returning_fields)
+  File "C:\Users\79671\PycharmProjects\VK_friends_service\venv\lib\site-packages\django\db\models\sql\compiler.py", line 1416, in execute_sql
+    cursor.execute(sql, params)
+  File "C:\Users\79671\PycharmProjects\VK_friends_service\venv\lib\site-packages\django\db\backends\utils.py", line 98, in execute
+    return super().execute(sql, params)
+  File "C:\Users\79671\PycharmProjects\VK_friends_service\venv\lib\site-packages\django\db\backends\utils.py", line 66, in execute
+    return self._execute_with_wrappers(sql, params, many=False, executor=self._execute)
+  File "C:\Users\79671\PycharmProjects\VK_friends_service\venv\lib\site-packages\django\db\backends\utils.py", line 75, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "C:\Users\79671\PycharmProjects\VK_friends_service\venv\lib\site-packages\django\db\backends\utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+  File "C:\Users\79671\PycharmProjects\VK_friends_service\venv\lib\site-packages\django\db\utils.py", line 90, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "C:\Users\79671\PycharmProjects\VK_friends_service\venv\lib\site-packages\django\db\backends\utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+  File "C:\Users\79671\PycharmProjects\VK_friends_service\venv\lib\site-packages\django\db\backends\sqlite3\base.py", line 423, in execute
+    return Database.Cursor.execute(self, query, params)
+django.db.utils.IntegrityError: NOT NULL constraint failed: friends_user.username
+2023-05-09 13:03:58,262	INFO	C:\Users\79671\PycharmProjects\VK_friends_service\friends_service_for_vk\friends\views.py changed, reloading.
+2023-05-09 13:04:26,351	INFO	C:\Users\79671\PycharmProjects\VK_friends_service\friends_service_for_vk\friends\views.py changed, reloading.
+2023-05-09 13:04:27,893	ERROR	Internal Server Error: /users/register/
+Traceback (most recent call last):
+  File "C:\Users\79671\PycharmProjects\VK_friends_service\venv\lib\site-packages\django\db\backends\utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+  File "C:\Users\79671\PycharmProjects\VK_friends_service\venv\lib\site-packages\django\db\backends\sqlite3\base.py", line 423, in execute
+    return Database.Cursor.execute(self, query, params)
+sqlite3.IntegrityError: NOT NULL constraint failed: friends_user.username
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\79671\PycharmProjects\VK_friends_service\venv\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\79671\PycharmProjects\VK_friends_service\venv\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\79671\PycharmProjects\VK_friends_service\friends_service_for_vk\friends\views.py", line 65, in register_user
+    user = User.objects.create(username=username)
+  File "C:\Users\79671\PycharmProjects\VK_friends_service\venv\lib\site-packages\django\db\models\manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "C:\Users\79671\PycharmProjects\VK_friends_service\venv\lib\site-packages\django\db\models\query.py", line 453, in create
+    obj.save(force_insert=True, using=self.db)
+  File "C:\Users\79671\PycharmProjects\VK_friends_service\venv\lib\site-packages\django\db\models\base.py", line 740, in save
+    force_update=force_update, update_fields=update_fields)
+  File "C:\Users\79671\PycharmProjects\VK_friends_service\venv\lib\site-packages\django\db\models\base.py", line 778, in save_base
+    force_update, using, update_fields,
+  File "C:\Users\79671\PycharmProjects\VK_friends_service\venv\lib\site-packages\django\db\models\base.py", line 881, in _save_table
+    results = self._do_insert(cls._base_manager, using, fields, returning_fields, raw)
+  File "C:\Users\79671\PycharmProjects\VK_friends_service\venv\lib\site-packages\django\db\models\base.py", line 921, in _do_insert
+    using=using, raw=raw,
+  File "C:\Users\79671\PycharmProjects\VK_friends_service\venv\lib\site-packages\django\db\models\manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "C:\Users\79671\PycharmProjects\VK_friends_service\venv\lib\site-packages\django\db\models\query.py", line 1270, in _insert
+    return query.get_compiler(using=using).execute_sql(returning_fields)
+  File "C:\Users\79671\PycharmProjects\VK_friends_service\venv\lib\site-packages\django\db\models\sql\compiler.py", line 1416, in execute_sql
+    cursor.execute(sql, params)
+  File "C:\Users\79671\PycharmProjects\VK_friends_service\venv\lib\site-packages\django\db\backends\utils.py", line 98, in execute
+    return super().execute(sql, params)
+  File "C:\Users\79671\PycharmProjects\VK_friends_service\venv\lib\site-packages\django\db\backends\utils.py", line 66, in execute
+    return self._execute_with_wrappers(sql, params, many=False, executor=self._execute)
+  File "C:\Users\79671\PycharmProjects\VK_friends_service\venv\lib\site-packages\django\db\backends\utils.py", line 75, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "C:\Users\79671\PycharmProjects\VK_friends_service\venv\lib\site-packages\django\db\backends\utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+  File "C:\Users\79671\PycharmProjects\VK_friends_service\venv\lib\site-packages\django\db\utils.py", line 90, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "C:\Users\79671\PycharmProjects\VK_friends_service\venv\lib\site-packages\django\db\backends\utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+  File "C:\Users\79671\PycharmProjects\VK_friends_service\venv\lib\site-packages\django\db\backends\sqlite3\base.py", line 423, in execute
+    return Database.Cursor.execute(self, query, params)
+django.db.utils.IntegrityError: NOT NULL constraint failed: friends_user.username
+2023-05-09 13:07:39,916	ERROR	Internal Server Error: /users/register/
+Traceback (most recent call last):
+  File "C:\Users\79671\PycharmProjects\VK_friends_service\venv\lib\site-packages\django\db\backends\utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+  File "C:\Users\79671\PycharmProjects\VK_friends_service\venv\lib\site-packages\django\db\backends\sqlite3\base.py", line 423, in execute
+    return Database.Cursor.execute(self, query, params)
+sqlite3.IntegrityError: NOT NULL constraint failed: friends_user.username
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\79671\PycharmProjects\VK_friends_service\venv\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\79671\PycharmProjects\VK_friends_service\venv\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\79671\PycharmProjects\VK_friends_service\friends_service_for_vk\friends\views.py", line 65, in register_user
+    user = User.objects.create(username=username)
+  File "C:\Users\79671\PycharmProjects\VK_friends_service\venv\lib\site-packages\django\db\models\manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "C:\Users\79671\PycharmProjects\VK_friends_service\venv\lib\site-packages\django\db\models\query.py", line 453, in create
+    obj.save(force_insert=True, using=self.db)
+  File "C:\Users\79671\PycharmProjects\VK_friends_service\venv\lib\site-packages\django\db\models\base.py", line 740, in save
+    force_update=force_update, update_fields=update_fields)
+  File "C:\Users\79671\PycharmProjects\VK_friends_service\venv\lib\site-packages\django\db\models\base.py", line 778, in save_base
+    force_update, using, update_fields,
+  File "C:\Users\79671\PycharmProjects\VK_friends_service\venv\lib\site-packages\django\db\models\base.py", line 881, in _save_table
+    results = self._do_insert(cls._base_manager, using, fields, returning_fields, raw)
+  File "C:\Users\79671\PycharmProjects\VK_friends_service\venv\lib\site-packages\django\db\models\base.py", line 921, in _do_insert
+    using=using, raw=raw,
+  File "C:\Users\79671\PycharmProjects\VK_friends_service\venv\lib\site-packages\django\db\models\manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "C:\Users\79671\PycharmProjects\VK_friends_service\venv\lib\site-packages\django\db\models\query.py", line 1270, in _insert
+    return query.get_compiler(using=using).execute_sql(returning_fields)
+  File "C:\Users\79671\PycharmProjects\VK_friends_service\venv\lib\site-packages\django\db\models\sql\compiler.py", line 1416, in execute_sql
+    cursor.execute(sql, params)
+  File "C:\Users\79671\PycharmProjects\VK_friends_service\venv\lib\site-packages\django\db\backends\utils.py", line 98, in execute
+    return super().execute(sql, params)
+  File "C:\Users\79671\PycharmProjects\VK_friends_service\venv\lib\site-packages\django\db\backends\utils.py", line 66, in execute
+    return self._execute_with_wrappers(sql, params, many=False, executor=self._execute)
+  File "C:\Users\79671\PycharmProjects\VK_friends_service\venv\lib\site-packages\django\db\backends\utils.py", line 75, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "C:\Users\79671\PycharmProjects\VK_friends_service\venv\lib\site-packages\django\db\backends\utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+  File "C:\Users\79671\PycharmProjects\VK_friends_service\venv\lib\site-packages\django\db\utils.py", line 90, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "C:\Users\79671\PycharmProjects\VK_friends_service\venv\lib\site-packages\django\db\backends\utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+  File "C:\Users\79671\PycharmProjects\VK_friends_service\venv\lib\site-packages\django\db\backends\sqlite3\base.py", line 423, in execute
+    return Database.Cursor.execute(self, query, params)
+django.db.utils.IntegrityError: NOT NULL constraint failed: friends_user.username
+2023-05-09 13:08:28,573	INFO	C:\Users\79671\PycharmProjects\VK_friends_service\friends_service_for_vk\friends\views.py changed, reloading.
+2023-05-09 13:11:49,358	ERROR	Internal Server Error: /users/register/
+Traceback (most recent call last):
+  File "C:\Users\79671\PycharmProjects\VK_friends_service\venv\lib\site-packages\django\db\backends\utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+  File "C:\Users\79671\PycharmProjects\VK_friends_service\venv\lib\site-packages\django\db\backends\sqlite3\base.py", line 423, in execute
+    return Database.Cursor.execute(self, query, params)
+sqlite3.IntegrityError: NOT NULL constraint failed: friends_user.username
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\79671\PycharmProjects\VK_friends_service\venv\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\79671\PycharmProjects\VK_friends_service\venv\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\79671\PycharmProjects\VK_friends_service\friends_service_for_vk\friends\views.py", line 65, in register_user
+    user = User.objects.create(username=username)
+  File "C:\Users\79671\PycharmProjects\VK_friends_service\venv\lib\site-packages\django\db\models\manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "C:\Users\79671\PycharmProjects\VK_friends_service\venv\lib\site-packages\django\db\models\query.py", line 453, in create
+    obj.save(force_insert=True, using=self.db)
+  File "C:\Users\79671\PycharmProjects\VK_friends_service\venv\lib\site-packages\django\db\models\base.py", line 740, in save
+    force_update=force_update, update_fields=update_fields)
+  File "C:\Users\79671\PycharmProjects\VK_friends_service\venv\lib\site-packages\django\db\models\base.py", line 778, in save_base
+    force_update, using, update_fields,
+  File "C:\Users\79671\PycharmProjects\VK_friends_service\venv\lib\site-packages\django\db\models\base.py", line 881, in _save_table
+    results = self._do_insert(cls._base_manager, using, fields, returning_fields, raw)
+  File "C:\Users\79671\PycharmProjects\VK_friends_service\venv\lib\site-packages\django\db\models\base.py", line 921, in _do_insert
+    using=using, raw=raw,
+  File "C:\Users\79671\PycharmProjects\VK_friends_service\venv\lib\site-packages\django\db\models\manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "C:\Users\79671\PycharmProjects\VK_friends_service\venv\lib\site-packages\django\db\models\query.py", line 1270, in _insert
+    return query.get_compiler(using=using).execute_sql(returning_fields)
+  File "C:\Users\79671\PycharmProjects\VK_friends_service\venv\lib\site-packages\django\db\models\sql\compiler.py", line 1416, in execute_sql
+    cursor.execute(sql, params)
+  File "C:\Users\79671\PycharmProjects\VK_friends_service\venv\lib\site-packages\django\db\backends\utils.py", line 98, in execute
+    return super().execute(sql, params)
+  File "C:\Users\79671\PycharmProjects\VK_friends_service\venv\lib\site-packages\django\db\backends\utils.py", line 66, in execute
+    return self._execute_with_wrappers(sql, params, many=False, executor=self._execute)
+  File "C:\Users\79671\PycharmProjects\VK_friends_service\venv\lib\site-packages\django\db\backends\utils.py", line 75, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "C:\Users\79671\PycharmProjects\VK_friends_service\venv\lib\site-packages\django\db\backends\utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+  File "C:\Users\79671\PycharmProjects\VK_friends_service\venv\lib\site-packages\django\db\utils.py", line 90, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "C:\Users\79671\PycharmProjects\VK_friends_service\venv\lib\site-packages\django\db\backends\utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+  File "C:\Users\79671\PycharmProjects\VK_friends_service\venv\lib\site-packages\django\db\backends\sqlite3\base.py", line 423, in execute
+    return Database.Cursor.execute(self, query, params)
+django.db.utils.IntegrityError: NOT NULL constraint failed: friends_user.username
+2023-05-09 13:16:59,325	ERROR	Internal Server Error: /users/register/
+Traceback (most recent call last):
+  File "C:\Users\79671\PycharmProjects\VK_friends_service\venv\lib\site-packages\django\db\backends\utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+  File "C:\Users\79671\PycharmProjects\VK_friends_service\venv\lib\site-packages\django\db\backends\sqlite3\base.py", line 423, in execute
+    return Database.Cursor.execute(self, query, params)
+sqlite3.IntegrityError: NOT NULL constraint failed: friends_user.username
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\79671\PycharmProjects\VK_friends_service\venv\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\79671\PycharmProjects\VK_friends_service\venv\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\79671\PycharmProjects\VK_friends_service\friends_service_for_vk\friends\views.py", line 65, in register_user
+    user = User.objects.create(username=username)
+  File "C:\Users\79671\PycharmProjects\VK_friends_service\venv\lib\site-packages\django\db\models\manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "C:\Users\79671\PycharmProjects\VK_friends_service\venv\lib\site-packages\django\db\models\query.py", line 453, in create
+    obj.save(force_insert=True, using=self.db)
+  File "C:\Users\79671\PycharmProjects\VK_friends_service\venv\lib\site-packages\django\db\models\base.py", line 740, in save
+    force_update=force_update, update_fields=update_fields)
+  File "C:\Users\79671\PycharmProjects\VK_friends_service\venv\lib\site-packages\django\db\models\base.py", line 778, in save_base
+    force_update, using, update_fields,
+  File "C:\Users\79671\PycharmProjects\VK_friends_service\venv\lib\site-packages\django\db\models\base.py", line 881, in _save_table
+    results = self._do_insert(cls._base_manager, using, fields, returning_fields, raw)
+  File "C:\Users\79671\PycharmProjects\VK_friends_service\venv\lib\site-packages\django\db\models\base.py", line 921, in _do_insert
+    using=using, raw=raw,
+  File "C:\Users\79671\PycharmProjects\VK_friends_service\venv\lib\site-packages\django\db\models\manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "C:\Users\79671\PycharmProjects\VK_friends_service\venv\lib\site-packages\django\db\models\query.py", line 1270, in _insert
+    return query.get_compiler(using=using).execute_sql(returning_fields)
+  File "C:\Users\79671\PycharmProjects\VK_friends_service\venv\lib\site-packages\django\db\models\sql\compiler.py", line 1416, in execute_sql
+    cursor.execute(sql, params)
+  File "C:\Users\79671\PycharmProjects\VK_friends_service\venv\lib\site-packages\django\db\backends\utils.py", line 98, in execute
+    return super().execute(sql, params)
+  File "C:\Users\79671\PycharmProjects\VK_friends_service\venv\lib\site-packages\django\db\backends\utils.py", line 66, in execute
+    return self._execute_with_wrappers(sql, params, many=False, executor=self._execute)
+  File "C:\Users\79671\PycharmProjects\VK_friends_service\venv\lib\site-packages\django\db\backends\utils.py", line 75, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "C:\Users\79671\PycharmProjects\VK_friends_service\venv\lib\site-packages\django\db\backends\utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+  File "C:\Users\79671\PycharmProjects\VK_friends_service\venv\lib\site-packages\django\db\utils.py", line 90, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "C:\Users\79671\PycharmProjects\VK_friends_service\venv\lib\site-packages\django\db\backends\utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+  File "C:\Users\79671\PycharmProjects\VK_friends_service\venv\lib\site-packages\django\db\backends\sqlite3\base.py", line 423, in execute
+    return Database.Cursor.execute(self, query, params)
+django.db.utils.IntegrityError: NOT NULL constraint failed: friends_user.username
+2023-05-09 13:18:36,335	ERROR	Internal Server Error: /users/register/
+Traceback (most recent call last):
+  File "C:\Users\79671\PycharmProjects\VK_friends_service\venv\lib\site-packages\django\db\backends\utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+  File "C:\Users\79671\PycharmProjects\VK_friends_service\venv\lib\site-packages\django\db\backends\sqlite3\base.py", line 423, in execute
+    return Database.Cursor.execute(self, query, params)
+sqlite3.IntegrityError: NOT NULL constraint failed: friends_user.username
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\79671\PycharmProjects\VK_friends_service\venv\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\79671\PycharmProjects\VK_friends_service\venv\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\79671\PycharmProjects\VK_friends_service\friends_service_for_vk\friends\views.py", line 65, in register_user
+    user = User.objects.create(username=username)
+  File "C:\Users\79671\PycharmProjects\VK_friends_service\venv\lib\site-packages\django\db\models\manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "C:\Users\79671\PycharmProjects\VK_friends_service\venv\lib\site-packages\django\db\models\query.py", line 453, in create
+    obj.save(force_insert=True, using=self.db)
+  File "C:\Users\79671\PycharmProjects\VK_friends_service\venv\lib\site-packages\django\db\models\base.py", line 740, in save
+    force_update=force_update, update_fields=update_fields)
+  File "C:\Users\79671\PycharmProjects\VK_friends_service\venv\lib\site-packages\django\db\models\base.py", line 778, in save_base
+    force_update, using, update_fields,
+  File "C:\Users\79671\PycharmProjects\VK_friends_service\venv\lib\site-packages\django\db\models\base.py", line 881, in _save_table
+    results = self._do_insert(cls._base_manager, using, fields, returning_fields, raw)
+  File "C:\Users\79671\PycharmProjects\VK_friends_service\venv\lib\site-packages\django\db\models\base.py", line 921, in _do_insert
+    using=using, raw=raw,
+  File "C:\Users\79671\PycharmProjects\VK_friends_service\venv\lib\site-packages\django\db\models\manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "C:\Users\79671\PycharmProjects\VK_friends_service\venv\lib\site-packages\django\db\models\query.py", line 1270, in _insert
+    return query.get_compiler(using=using).execute_sql(returning_fields)
+  File "C:\Users\79671\PycharmProjects\VK_friends_service\venv\lib\site-packages\django\db\models\sql\compiler.py", line 1416, in execute_sql
+    cursor.execute(sql, params)
+  File "C:\Users\79671\PycharmProjects\VK_friends_service\venv\lib\site-packages\django\db\backends\utils.py", line 98, in execute
+    return super().execute(sql, params)
+  File "C:\Users\79671\PycharmProjects\VK_friends_service\venv\lib\site-packages\django\db\backends\utils.py", line 66, in execute
+    return self._execute_with_wrappers(sql, params, many=False, executor=self._execute)
+  File "C:\Users\79671\PycharmProjects\VK_friends_service\venv\lib\site-packages\django\db\backends\utils.py", line 75, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "C:\Users\79671\PycharmProjects\VK_friends_service\venv\lib\site-packages\django\db\backends\utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+  File "C:\Users\79671\PycharmProjects\VK_friends_service\venv\lib\site-packages\django\db\utils.py", line 90, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "C:\Users\79671\PycharmProjects\VK_friends_service\venv\lib\site-packages\django\db\backends\utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+  File "C:\Users\79671\PycharmProjects\VK_friends_service\venv\lib\site-packages\django\db\backends\sqlite3\base.py", line 423, in execute
+    return Database.Cursor.execute(self, query, params)
+django.db.utils.IntegrityError: NOT NULL constraint failed: friends_user.username
+2023-05-09 13:20:50,334	ERROR	Internal Server Error: /users/register/
+Traceback (most recent call last):
+  File "C:\Users\79671\PycharmProjects\VK_friends_service\venv\lib\site-packages\django\template\base.py", line 470, in parse
+    compile_func = self.tags[command]
+KeyError: 'endblock'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\79671\PycharmProjects\VK_friends_service\venv\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\79671\PycharmProjects\VK_friends_service\venv\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\79671\PycharmProjects\VK_friends_service\friends_service_for_vk\friends\views.py", line 63, in register_user
+    return render(request, "friends/user_already_exist.html", context=context)
+  File "C:\Users\79671\PycharmProjects\VK_friends_service\venv\lib\site-packages\django\shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\79671\PycharmProjects\VK_friends_service\venv\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "C:\Users\79671\PycharmProjects\VK_friends_service\venv\lib\site-packages\django\template\loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+  File "C:\Users\79671\PycharmProjects\VK_friends_service\venv\lib\site-packages\django\template\backends\django.py", line 34, in get_template
+    return Template(self.engine.get_template(template_name), self)
+  File "C:\Users\79671\PycharmProjects\VK_friends_service\venv\lib\site-packages\django\template\engine.py", line 143, in get_template
+    template, origin = self.find_template(template_name)
+  File "C:\Users\79671\PycharmProjects\VK_friends_service\venv\lib\site-packages\django\template\engine.py", line 125, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "C:\Users\79671\PycharmProjects\VK_friends_service\venv\lib\site-packages\django\template\loaders\base.py", line 30, in get_template
+    contents, origin, origin.template_name, self.engine,
+  File "C:\Users\79671\PycharmProjects\VK_friends_service\venv\lib\site-packages\django\template\base.py", line 155, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "C:\Users\79671\PycharmProjects\VK_friends_service\venv\lib\site-packages\django\template\base.py", line 193, in compile_nodelist
+    return parser.parse()
+  File "C:\Users\79671\PycharmProjects\VK_friends_service\venv\lib\site-packages\django\template\base.py", line 478, in parse
+    raise self.error(token, e)
+  File "C:\Users\79671\PycharmProjects\VK_friends_service\venv\lib\site-packages\django\template\base.py", line 476, in parse
+    compiled_result = compile_func(self, token)
+  File "C:\Users\79671\PycharmProjects\VK_friends_service\venv\lib\site-packages\django\template\loader_tags.py", line 278, in do_extends
+    nodelist = parser.parse()
+  File "C:\Users\79671\PycharmProjects\VK_friends_service\venv\lib\site-packages\django\template\base.py", line 472, in parse
+    self.invalid_block_tag(token, command, parse_until)
+  File "C:\Users\79671\PycharmProjects\VK_friends_service\venv\lib\site-packages\django\template\base.py", line 534, in invalid_block_tag
+    "or load this tag?" % (token.lineno, command)
+django.template.exceptions.TemplateSyntaxError: Invalid block tag on line 8: 'endblock'. Did you forget to register or load this tag?
+2023-05-09 13:21:16,103	WARNING	Not Found: /users/register/users/log_in
+2023-05-09 13:22:24,357	WARNING	Not Found: /users/users/log_in
+2023-05-09 13:23:06,599	INFO	Created Friendship object of user: 1, and friend: 6
+2023-05-09 13:23:06,599	INFO	Created Friendship object of user: 1, and friend: 6
+2023-05-09 13:23:06,606	INFO	Changed FriendReuest object of user: 1, to friend: 6 to True
+2023-05-09 13:23:07,893	INFO	Deleted Friendship object of user: 1, and friend: 6
+2023-05-09 13:23:07,903	INFO	Changed Friendship object of user: 1, and friend: 6 to False
+2023-05-09 13:23:08,620	INFO	Deleted FriendRequest object of user: 1, to user: 6
+2023-05-09 13:23:11,001	INFO	Deleted friend_request from user: 1, to user: 4
+2023-05-09 13:32:07,189	INFO	Deleted Friendship object of user: 1, and friend: 2
+2023-05-09 13:32:07,199	INFO	Deleted Friendship object of user: 1, and friend: 2
+2023-05-09 13:33:31,612	INFO	Deleted friend_request from user: 1, to user: 5
+2023-05-09 14:02:00,227	INFO	Deleted friend_request from user: 1, to user: 4
+2023-05-09 14:02:00,870	INFO	Deleted friend_request from user: 1, to user: 3
+2023-05-09 14:02:01,388	INFO	Deleted friend_request from user: 1, to user: 2
+2023-05-09 14:02:04,645	INFO	Deleted friend_request from user: 1, to user: 6
+2023-05-09 14:02:05,112	INFO	Deleted friend_request from user: 1, to user: 7
+2023-05-09 14:02:06,540	INFO	Deleted friend_request from user: 1, to user: 6
+2023-05-09 15:44:06,794	INFO	Deleted friend_request from user: 1, to user: 2
+2023-05-09 15:44:07,326	INFO	Deleted friend_request from user: 1, to user: 3
+2023-05-09 15:44:07,848	INFO	Deleted friend_request from user: 1, to user: 4
+2023-05-09 15:44:10,251	INFO	Deleted friend_request from user: 1, to user: 5
+2023-05-09 15:44:21,684	INFO	Deleted FriendRequest object of user: 3, to user: 1
+2023-05-09 15:44:23,198	INFO	Created Friendship object of user: 3, and friend: 6
+2023-05-09 15:44:23,198	INFO	Created Friendship object of user: 3, and friend: 6
+2023-05-09 15:44:23,208	INFO	Changed FriendReuest object of user: 3, to friend: 6 to True

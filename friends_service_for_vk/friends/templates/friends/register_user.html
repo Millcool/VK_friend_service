@@ -1,0 +1,15 @@
+{% extends 'friends/base.html' %}
+
+{% block content %}
+
+<h1>Добро пожаловать на сайт !</h1>
+<h2>Пожалуйста зарегистрируйтесь на нашем сайте</h2>
+
+    <form class="one_block" method="post">
+        {% csrf_token %}
+        <label for="username">Username:</label>
+        <input type="text" name="username"
+               placeholder="Иван">
+        <input type="submit" value="Зарегистрироваться">
+    </form>
+{% endblock %}
