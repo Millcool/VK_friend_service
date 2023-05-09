@@ -1,0 +1,485 @@
+openapi: 3.0.0
+info:
+  title: Django Friends API
+  version: 1.0.0
+servers:
+  - url: http://localhost:8000/api/v1
+paths:
+  /users:
+    post:
+      summary: Регистрация нового пользователя
+      requestBody:
+        content:
+          application/json:
+            schema:
+              type: object
+              properties:
+                username:
+                  type: string
+              required:
+                - username
+      responses:
+        '201':
+          description: Пользователь успешно создан
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  id:
+                    type: integer
+                  username:
+                    type: string
+        '400':
+          description: Некорректный запрос
+    get:
+      summary: Получение списка всех пользователей
+      responses:
+        '200':
+          description: Список пользователей
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  type: object
+                  properties:
+                    id:
+                      type: integer
+                    username:
+                      type: string
+        '404':
+          description: Не найдено ни одного пользователя
+  /users/{user_id}:
+    get:
+      summary: Получение информации о конкретном пользователе
+      parameters:
+        - in: path
+          name: user_id
+          required: true
+          schema:
+            type: integer
+          description: Идентификатор пользователя
+      responses:
+        '200':
+          description: Информация о пользователе
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  id:
+                    type: integer
+                  username:
+                    type: string
+        '404':
+          description: Пользователь не найден
+  /users/{user_id}/friend-requests/outgoing:
+    get:
+      summary: Получение списка исходящих заявок в друзья для пользователя
+      parameters:
+        - in: path
+          name: user_id
+          required: true
+          schema:
+            type: integer
+          description: Идентификатор пользователя
+      responses:
+        '200':
+          description: Список исходящих заявок в друзья
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  type: object
+                  properties:
+                    id:
+                      type: integer
+                    from_user_id:
+                      type: integer
+                    to_user_id:
+                      type: integer
+        '404':
+          description: Пользователь не найден
+    post:
+      summary: Отправка заявки в друзья
+      parameters:
+        - in: path
+          name: user_id
+          required: true
+          schema:
+            type: integer
+          description: Идентификатор пользователя, которому отправляется заявка
+      requestBody:
+        content:
+          application/json:
+            schema:
+              type: object
+              properties:
+                from_user_id:
+                  type: integer
+              required:
+                - from_user_id
+      responses:
+        '201':
+          description: Заявка в друзья успешно отправлена
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  id:
+                    type: integer
+                  from_user_id:
+                    type: integer
+                  to_user_id:
+                    type: integer
+        '400':
+          description: Некорректный запрос
+        '404':
+          description: Пользователь не найден
+  /users/{user_id}/friend-requests/incoming:
+    get:
+      summary: Получение списка входящих заявок в друзья для пользователя
+      parameters:
+        - in: path
+          name: user_id
+          required: true
+          schema:
+            type: integer
+          description: Идентификатор пользователя
+      responses:
+        '200':
+          description: Список входящих заявок в друзья
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  type: object
+                  properties:
+                    id:
+                      type: integer
+                    from_user_id:
+                      type: integer
+                    to_user_id:
+                      type: integer
+        '404':
+          description: Пользователь не найден
+
+  /users/{user_id}/friend-requests/{friend_request_id}:
+    put:
+      summary: Принятие заявки в друзья
+      parameters:
+        - in: path
+          name: user_id
+          required: true
+          schema:
+            type: integer
+          description: Идентификатор пользователя, принимающего заявку
+        - in: path
+          name: friend_request_id
+          required: true
+          schema:
+            type: integer
+          description: Идентификатор заявки в друзья
+      requestBody:
+        content:
+          application/json:
+            schema:
+              type: object
+              properties:
+                accepted:
+                  type: boolean
+              required:
+                - accepted
+      responses:
+        '200':
+          description: Заявка в друзья успешно принята/отклонена
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  id:
+                    type: integer
+                  from_user_id:
+                    type: integer
+                  to_user_id:
+                    type: integer
+                  accepted:
+                    type: boolean
+        '400':
+          description: Некорректный запрос
+        '404':
+          description: Пользователь или заявка в друзья не найдены
+
+  /users/{user_id}/friends:
+    get:
+      summary: Получение списка друзей пользователя
+      parameters:
+        - in: path
+          name: user_id
+          required: true
+          schema:
+            type: integer
+          description: Идентификатор пользователя
+      responses:
+        '200':
+          description: Список друзей
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  type: object
+                  properties:
+                    id:
+                      type: integer
+                    username:
+                      type: string
+        '404':
+          description: Пользователь не найден
+    delete:
+      summary: Удаление друга
+      parameters:
+        - in: path
+          name: user_id
+          required: true
+          schema:
+            type: integer
+          description: Идентификатор пользователя, удаляющего друга
+        - in: query
+          name: friend_id
+          required: true
+          schema:
+            type: integer
+          description: Идентификатор друга, которого нужно удалить
+      responses:
+        '204':
+          description: Друг успешно удален
+        '400':
+          description: Некорректный запрос
+        '404':
+          description: Пользователь или друг не найден
+  /users/{user_id}/friend-status:
+    get:
+      summary: Получение статуса дружбы с другим пользователем
+      parameters:
+        - in: path
+          name: user_id
+          required: true
+          schema:
+            type: integer
+          description: Идентификатор пользователя
+        - in: query
+          name: friend_id
+          required: true
+          schema:
+            type: integer
+          description: Идентификатор другого пользователя
+      responses:
+        '200':
+          description: Статус дружбы
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  friendship_status:
+                    type: string
+                    enum: ['Нет ничего', 'Есть исходящая заявка', 'Есть входящая заявка', 'Уже друзья']
+        '400':
+          description: Некорректный запрос
+        '404':
+          description: Пользователь или друг не найден
+
+  /users/{user_id}/friends/requests:
+    get:
+      summary: Получение списка всех заявок в друзья для пользователя
+      parameters:
+        - in: path
+          name: user_id
+          required: true
+          schema:
+            type: integer
+          description: Идентификатор пользователя
+      responses:
+        '200':
+          description: Список всех заявок в друзья для пользователя
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  type: object
+                  properties:
+                    id:
+                      type: integer
+                    from_user_id:
+                      type: integer
+                    to_user_id:
+                      type: integer
+                    accepted:
+                      type: boolean
+        '404':
+          description: Пользователь не найден
+
+  /users/{user_id}/friends/auto-add:
+    post:
+      summary: Добавление друзей автоматически
+      parameters:
+        - in: path
+          name: user_id
+          required: true
+          schema:
+            type: integer
+          description: Идентификатор пользователя, которому нужно добавить друзей
+      responses:
+        '200':
+          description: Друзья успешно добавлены
+        '400':
+          description: Некорректный запрос
+        '404':
+          description: Пользователь не найден
+    delete:
+      summary: Отмена добавления друзей автоматически
+      parameters:
+        - in: path
+          name: user_id
+          required: true
+          schema:
+            type: integer
+          description: Идентификатор пользователя, у которого нужно отменить добавление друзей
+      responses:
+        '204':
+          description: Добавление друзей успешно отменено
+        '404':
+          description: Пользователь не найден
+
+  /users/{user_id}/friend-requests/incoming:
+    get:
+      summary: Получение списка входящих заявок в друзья для пользователя
+      parameters:
+        - in: path
+          name: user_id
+          required: true
+          schema:
+            type: integer
+          description: Идентификатор пользователя
+      responses:
+        '200':
+          description: Список входящих заявок в друзья
+          content:
+            application/json:
+/users/{user_id}/friends/{friend_id}:
+  delete:
+  summary: Удаление друга
+  parameters:
+  - in: path
+  name: user_id
+  required: true
+  schema:
+  type: integer
+  description: Идентификатор пользователя
+  - in: path
+  name: friend_id
+  required: true
+  schema:
+  type: integer
+  description: Идентификатор другого пользователя
+  responses:
+  '204':
+  description: Друг успешно удален
+  '404':
+  description: Пользователь или друг не найден
+  /users/{user_id}/friends:
+  get:
+  summary: Получение списка друзей пользователя
+  parameters:
+  - in: path
+  name: user_id
+  required: true
+  schema:
+  type: integer
+  description: Идентификатор пользователя
+  responses:
+  '200':
+  description: Список друзей пользователя
+  content:
+  application/json:
+  schema:
+  type: array
+  items:
+  type: object
+  properties:
+  id:
+  type: integer
+  username:
+  type: string
+  '404':
+  description: Пользователь не найден
+  
+  
+components:
+  schemas:
+    User:
+    type: object
+    properties:
+  id:
+  type: integer
+  username:
+  type: string
+  
+  FriendRequest:
+  type: object
+  properties:
+    id:
+      type: integer
+    from_user_id:
+      type: integer
+    to_user_id:
+      type: integer
+    accepted:
+      type: boolean
+      
+     
+  InvalidRequestError:
+    allOf:
+      - $ref: '#/components/schemas/Error'
+      - type: object
+        properties:
+          message:
+            type: string
+            description: Причина ошибки
+
+  NotFoundError:
+    allOf:
+      - $ref: '#/components/schemas/Error'
+      - type: object
+        properties:
+          message:
+            type: string
+            description: Причина ошибки
+
+  AuthError:
+    allOf:
+      - $ref: '#/components/schemas/Error'
+      - type: object
+        properties:
+          message:
+            type: string
+            description: Причина ошибки
+
+  ServerError:
+    allOf:
+      - $ref: '#/components/schemas/Error'
+      - type: object
+        properties:
+          message:
+            type: string
+            description: Причина ошибки
+
+
+    
