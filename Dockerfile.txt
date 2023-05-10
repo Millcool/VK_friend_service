@@ -1,0 +1,25 @@
+FROM ubuntu:latest
+
+RUN apt-get update
+
+MAINTAINER Ilia Mironov 'ilyamironov210202@gmail.com'
+
+LABEL authors="ilya Mironov"
+
+#создание рабочей директории
+WORKDIR /app
+
+COPY requirements.txt requirements.txt
+
+#устанавливает все зависимости
+RUN pip3 install -r requirements.txt
+
+
+#Копируем все содержимое из директории в которой мы щас в ./app
+COPY . .
+
+# Указываем порт на котором будет запущен Django сервер
+EXPOSE 8000
+
+# запускаем сервер
+CMD python manage.py runserver
