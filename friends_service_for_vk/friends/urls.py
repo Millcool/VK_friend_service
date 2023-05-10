@@ -1,11 +1,12 @@
 from django.urls import path
+
 from . import views
 
 app_name = 'friends'
 
 urlpatterns = [
 
-    path('', views.welcome_page, name = 'home'),
+    path('', views.welcome_page, name='home'),
     path('users/register/', views.register_user, name='register_user'),
     path('users/log_in', views.log_in_user, name='log_in_user'),
     path('users/<int:user_id>/<int:friend_id>/remove_friend', views.remove_friend, name='delete_friend'),

@@ -1,7 +1,9 @@
 from django.db import models
-from django.conf import settings
+
 
 class User(models.Model):
+    """"Модель для хранения пользователей"""
+
     username = models.CharField(max_length=255)
 
     def __str__(self):
@@ -9,6 +11,8 @@ class User(models.Model):
 
 
 class FriendRequest(models.Model):
+    """ Модель для хранения запросов в друзья от пользователей"""
+
     from_user = models.IntegerField(default=0)
     to_user = models.IntegerField(default=0)
     accepted = models.BooleanField(default=False)
@@ -18,6 +22,8 @@ class FriendRequest(models.Model):
 
 
 class Friendship(models.Model):
+    """Модель для хранения данных о дружбе пользователей"""
+
     user_id = models.IntegerField(default=0)
     friend_id = models.IntegerField(default=0)
     created_at = models.DateTimeField(auto_now_add=True)

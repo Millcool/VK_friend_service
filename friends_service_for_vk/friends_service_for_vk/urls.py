@@ -15,7 +15,7 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path, include
-from friends.views import pageNotFound, ServerError
+from friends.views import page_not_found, server_error
 urlpatterns = [
     path('admin/', admin.site.urls),
 
@@ -23,5 +23,5 @@ urlpatterns = [
     path('', include('friends.urls'))
 ]
 
-handler404 = pageNotFound
-handler500 = ServerError
+handler404 = page_not_found
+handler500 = server_error
